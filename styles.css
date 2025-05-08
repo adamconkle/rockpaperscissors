@@ -3,18 +3,21 @@ body {
   font-size:32px;
   font-family:Arial;
   padding: 50px;
+  background: #020024;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 79, 1) 100%); 
+  color: white;
 }
 
 #user-choice {
   color:white;
-  background:black;
+  border: 1px solid white;
   padding:10px;
   border-radius:10px;
 }
 
 #computer-choice {
   color:white;
-  background:black;
+  border: 1px solid white;
   padding:10px;
   border-radius:10px;
 }
@@ -23,13 +26,14 @@ button {
   padding:10px;
   background:white;
   color:black;
+  border: none;
   border-radius:10px;
   font-size:20px;
   transition-duration: 0.5s;
 }
 
 button:hover {
-background:dodgerblue;
+background:#0200ff;
 
 }
 
